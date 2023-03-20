@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "function": {
-    "nodeplayground": {
+    "jimnodeplayground": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",

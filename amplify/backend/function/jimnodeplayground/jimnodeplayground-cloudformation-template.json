@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "nodeplayground",
+            "jimnodeplayground",
             {
               "Fn::Join": [
                 "",
                 [
-                  "nodeplayground",
+                  "jimnodeplayground",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "amplifyprojectplaygrLambdaRole4aff2d2b",
+            "amplifyprojectplaygrLambdaRole0d44b346",
             {
               "Fn::Join": [
                 "",
                 [
-                  "amplifyprojectplaygrLambdaRole4aff2d2b",
+                  "amplifyprojectplaygrLambdaRole0d44b346",
                   "-",
                   {
                     "Ref": "env"

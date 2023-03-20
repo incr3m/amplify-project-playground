@@ -1,25 +1,25 @@
 {
   "function": {
-    "nodeplayground": {
+    "jimnodeplayground": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_nodeplayground_deploymentBucketName": {
+    "AMPLIFY_function_jimnodeplayground_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "nodeplayground"
+          "resourceName": "jimnodeplayground"
         }
       ]
     },
-    "AMPLIFY_function_nodeplayground_s3Key": {
+    "AMPLIFY_function_jimnodeplayground_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "nodeplayground"
+          "resourceName": "jimnodeplayground"
         }
       ]
     }
