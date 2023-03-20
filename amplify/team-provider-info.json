@@ -15,7 +15,7 @@
       "function": {
         "jimnodeplayground": {
           "deploymentBucketName": "amplify-amplifyprojectplaygr-dev-103625-deployment",
-          "s3Key": "amplify-builds/jimnodeplayground-684b70544e4d2b666f57-build.zip"
+          "s3Key": "amplify-builds/jimnodeplayground-6448305a486967337857-build.zip"
         }
       }
     }

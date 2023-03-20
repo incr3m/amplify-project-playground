@@ -7,6 +7,7 @@ describe('Addition', () => {
 
   it('should compute for sum of two numbers', async () => {
     const result = await handler(testEvent);
+    console.log('Lambda: ', result);
 
     const { num1, num2 } = testEvent.arguments;
     expect(result).toBe(num1 + num2);
