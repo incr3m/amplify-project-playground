@@ -10,6 +10,6 @@ describe('Addition', () => {
     console.log('Lambda: ', result);
 
     const { num1, num2 } = testEvent.arguments;
-    expect(result).toBe(num1 + num2);
+    expect(result).toBe(3);
   });
 });

@@ -1,5 +1,12 @@
-exports.handler = async event => {
-  console.log(`EVENT1111: ${JSON.stringify(event)}`);
-  const { num1, num2 } = event.arguments;
-  return num1 + num2;
+const { promiseFunction } = require('./promise');
+const { additionFunction } = require('./addition');
+
+exports.handler = async function mainHandler(event) {
+  console.log(`EVENT : ${event.type}`);
+  switch (event.type) {
+    case 'Promise':
+      return promiseFunction(event.arguments);
+    case 'Addition':
+      return additionFunction(event.arguments);
+  }
 };
