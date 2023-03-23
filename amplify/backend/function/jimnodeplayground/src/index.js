@@ -1,7 +1,7 @@
 const { promiseFunction } = require('./promise');
 const { additionFunction } = require('./addition');
 
-exports.handler = async function mainHandler(event) {
+exports.handler = function mainHandler(event) {
   console.log(`EVENT : ${event.type}`);
   switch (event.type) {
     case 'Promise':
